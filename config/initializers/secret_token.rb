@@ -1,0 +1,1 @@
+Browserspreev1::Application.config.secret_key_base = '0cae82150591ef50ddee9535c194ede2b581297a5b1190767ce14b0f04ebd644483f02aba0593c4eb26f5c5becad6e656ce64826fb998d2a4e7b28ebac580997'
