@@ -8,7 +8,7 @@ module Spree
     end
 
     def spree_current_user
-      Cms::PersistentUser
+      current_cms_user
     end
 
     def spree_login_path
