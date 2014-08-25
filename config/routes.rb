@@ -54,7 +54,7 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
 
-  mount Spree::Core::Engine, :at => "/"
+  mount Spree::Core::Engine, :at => "/shop"
 
   mount_browsercms
 end
