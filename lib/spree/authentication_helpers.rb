@@ -12,15 +12,15 @@ module Spree
     end
 
     def spree_login_path
-      main_app.login_path
+      main_app.new_cms_user_session_path
     end
 
     def spree_signup_path
-      main_app.signup_path
+      main_app.new_user_path
     end
 
     def spree_logout_path
-      main_app.logout_path
+      main_app.destroy_cms_user_session_path
     end
   end
 end
